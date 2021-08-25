@@ -1,0 +1,86 @@
+body
+{
+ background-color: gray;
+ margin:0
+}
+
+.menu a
+{
+  color:#006070;
+  text-decoration: none;
+  padding-top: 25px;
+}
+.menu a:visited
+{
+  color:whitesmoke;
+  text-decoration: none;
+  padding-top: 25px;
+}
+.menu:hover a
+{
+    border:solid gray ;
+}
+.item 
+{
+    
+ position:relative;
+
+}
+
+.item:hover img
+{
+    opacity: .33;
+}
+
+.item p
+{
+ top:50%;
+ left:50%;
+transform:translate(-50%,-50%);
+position:absolute;
+opacity: 0;
+}
+
+.item:hover p
+{
+ font-family: Impact, "Helvetica Neue", Helvetica, sans-serif;
+ opacity:1;
+}
+
+h1
+{
+  margin-left: 100px;
+}
+.header
+{
+    border:dashed 3px black;
+    display:flex;
+    justify-content:space-between;
+    background-color:crimson;
+
+}
+.games
+{
+    
+    display:flex;
+    justify-content:space-between;
+    background-color:lightgrey
+}
+.social
+{
+    margin-top: 15px;
+    display:flex;
+    justify-content:flex-start;
+    background-color: grey
+}
+.twitter
+{
+    margin-right:10px ;
+    margin-left:10px ;
+}
+.description
+{
+    margin-top: 15px;
+    display:flex;
+    justify-content:center;
+}
